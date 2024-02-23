@@ -8,7 +8,10 @@ function App() {
     if(input.trim() === ""){
       setResult("Error")
     }else{
-    if (isNaN(input)) {
+      if(eval(input) === Infinity){
+        setResult("Infinity")
+      }
+    else if (isNaN(input)) {
       setInput("NaN");
     } else {
       setInput(eval(input));
