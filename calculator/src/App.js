@@ -5,6 +5,9 @@ function App() {
   const [input, setInput] = useState("");
   const [result, setResult] = useState("");
   const handleEqual = () => {
+    if(input.trim() === ""){
+      setResult("Error")
+    }else{
     if (isNaN(input)) {
       setInput("NaN");
     } else {
@@ -12,6 +15,7 @@ function App() {
     }
     setResult(eval(input));
     setInput(input);
+  }
   };
   const handleClear = () => {
     setInput("");
