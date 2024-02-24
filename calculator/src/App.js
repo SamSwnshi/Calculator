@@ -33,102 +33,102 @@ function App() {
         <input type="text" value={input} className="calculator-input" />
         <p>{result}</p>
         <div className="rapper">
-          <input
+          <button
             type="button"
             className="btns"
             value="7"
             onClick={(e) => setInput(input + e.target.value)}
-          />
-          <input
+          >7</button>
+          <button
             type="button"
             className="btns"
             value="8"
             onClick={(e) => setInput(input + e.target.value)}
-          />
-          <input
+          >8</button>
+          <button
             type="button"
             className="btns"
             value="9"
             onClick={(e) => setInput(input + e.target.value)}
-          />
-          <input
+          >9</button>
+          <button
             type="button"
             className="btns"
             value="+"
             onClick={(e) => setInput(input + e.target.value)}
-          />
-          <input
+          >+</button>
+          <button
             type="button"
             className="btns"
             value="4"
             onClick={(e) => setInput(input + e.target.value)}
-          />
-          <input
+          >4</button>
+          <button
             type="button"
             className="btns"
             value="5"
             onClick={(e) => setInput(input + e.target.value)}
-          />
-          <input
+          >5</button>
+          <button
             type="button"
             className="btns"
             value="6"
             onClick={(e) => setInput(input + e.target.value)}
-          />
-          <input
+          >6</button>
+          <button
             type="button"
             className="btns"
             value="-"
             onClick={(e) => setInput(input + e.target.value)}
-          />
-          <input
+          >-</button>
+          <button
             type="button"
             className="btns"
             value="1"
             onClick={(e) => setInput(input + e.target.value)}
-          />
-          <input
+          >1</button>
+          <button
             type="button"
             className="btns"
             value="2"
             onClick={(e) => setInput(input + e.target.value)}
-          />
-          <input
+          >2</button>
+          <button
             type="button"
             className="btns"
             value="3"
             onClick={(e) => setInput(input + e.target.value)}
-          />
-          <input
+          >3</button>
+          <button
             type="button"
             className="btns"
             value="*"
             onClick={(e) => setInput(input + e.target.value)}
-          />
-          <input
+          >*</button>
+          <button
             type="button"
             className="btns"
             value="C"
             onClick={handleClear}
-          />
-          <input
+          >C</button>
+          <button
             type="button"
             className="btns"
             value="0"
             onClick={(e) => setInput(input + e.target.value)}
-          />
-          <input
+          >0</button>
+          <button
             type="button"
             className="btns"
             value="="
             onClick={handleEqual}
-          />
-          <input
+          >=</button>
+          <button
             type="button"
             className="btns"
             value="/"
             onClick={(e) => setInput(input + e.target.value)}
-          />
+          >/</button>
         </div>
       </div>
     </div>
